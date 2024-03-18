@@ -1,0 +1,75 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 80%
+    }
+    html {
+        font-size: 55%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    html {
+        font-size: 40%;
+    }
+
+    body {
+        margin: 0;
+        padding: 8rem 1rem;
+    }
+    
+    .container {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .payment {
+        grid-row: 2/3;
+        border-radius: 0;
+    }
+
+    .payment-title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .payment-price {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    .payment-txt {
+        font-size: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    button {
+        height: 25%;
+    }
+
+    .info {
+        grid-row: 3/4;
+        border-radius: 0 0px 10px 10px;
+    }
+
+    .info-title {
+        font-size: 3rem;
+    }
+
+    .info-txt {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
